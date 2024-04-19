@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function Input({name,type, placeholder, label}) {
+function Input({name,type, placeholder, label, onInputChange}) {
   return (
     <div className="input-wrapper">
         <label>{label}</label>
@@ -8,6 +8,7 @@ function Input({name,type, placeholder, label}) {
         name={name}
         type={type}
         placeholder={placeholder} 
+        onChange={onInputChange}
       />
     </div>
   );
