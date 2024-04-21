@@ -3,7 +3,8 @@ import "./App.css";
 //import Homework02 from "./homeworks/Homework02/Homework02";
 // import Lesson03 from "./lessons/lesson03/Lesson03";
 //import Homework03 from "./homeworks/Homework03/Homework03";
-import Lesson04 from "./lessons/lesson04/Lesson04";
+//import Lesson04 from "./lessons/lesson04/Lesson04";
+import Homework04 from "./homeworks/Homework04/Homework04";
 function App() {
   return (
     <div className="App">
@@ -11,8 +12,8 @@ function App() {
       {/* <Homework02/> */}
       {/* <Lesson03 /> */}
       {/* {<Homework03/>} */}
-      <Lesson04/>
-
+      {/* <Lesson04/> */}
+      {<Homework04/>}
     </div>
   );
 }
